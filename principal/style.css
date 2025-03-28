@@ -1,0 +1,26 @@
+body{
+    background-color: rgb(255, 255, 246);
+}
+header{
+    background-image: url(../Assets/imagens/background.png);
+}
+header nav ul {
+    display: flex;
+    justify-content: flex-end; 
+    list-style: none; 
+    padding: 20px; 
+    margin: 0px; 
+}
+
+header nav li {
+    margin-left: 20px; /* Espaçamento entre os itens */
+    align-self: flex-start; /* Garante que os itens fiquem alinhados ao topo */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer{
+    background-color: rgb(185, 183, 157);
+    color: black;
+    text-align: center;
+    padding: 20px;  
+}
