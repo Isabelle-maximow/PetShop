@@ -18,9 +18,76 @@ header nav li {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-footer{
-    background-color: rgb(185, 183, 157);
-    color: black;
-    text-align: center;
-    padding: 20px;  
+.footer {
+    background-color: #fade93;
+    padding: 40px 20px;
+    font-family: Arial, sans-serif;
 }
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-section {
+    width: 23%;
+    padding: 10px;
+}
+
+.footer-section h3,
+.footer-section h4 {
+    color: #333;
+    font-size: 1.2em;
+}
+
+.footer-section p {
+    color: #555;
+    font-size: 1em;
+}
+
+.social-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.social-links li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.social-links a {
+    color: #007BFF;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+.social-links a:hover {
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 0.9em;
+    color: #777;
+}
+
+@media (max-width: 768px) {
+    .footer-section {
+        width: 48%;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .footer-section {
+        width: 100%;
+    }
+}
+
+
+/*  LOJA */
