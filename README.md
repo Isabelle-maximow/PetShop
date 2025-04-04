@@ -60,8 +60,7 @@ Estamos super felizes em ter você por aqui! Juntos, podemos tornar a vida dos n
 
 ## 📢 **Contato:**
 
-- E-mail: contato@mundo.pet
-- Redes sociais: [Instagram](https://instagram.com/mundopet) | [Facebook](https://facebook.com/mundopet)
+- E-mail: isabellesilvamaximo@gmail.com
 
 ---
 
