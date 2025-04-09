@@ -2,9 +2,15 @@ body{
     background-color: rgb(255, 255, 246);
     font-family: "Poppins", sans-serif;
 }
+
+/*   HEADER   */
 header{
     background-image: url(../Assets/imagens/background.png);
+    width: 100%;
+    min-height: 100px;
+    height: 100%;
 }
+
 header nav ul {
     display: flex;
     justify-content: flex-end; 
@@ -16,13 +22,61 @@ header nav ul {
 header nav li {
     margin-left: 20px; /* Espaçamento entre os itens */
     align-self: flex-start; /* Garante que os itens fiquem alinhados ao topo */
-    font-family: Arial, Helvetica, sans-serif;
 }
 
+#menu_principal ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+#menu_principal ul li a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 1.5em;
+}
+
+#menu_principal ul li a:hover {
+    color: #7e7604;
+    border-bottom: solid 2px #886607;
+    transition: all 0.1s ease;
+}
+
+.banner {
+    background-image: url(../Assets/imagens/bannerHome.jpg);
+    background-size: cover; /*  Diminui o zoom da imagem */
+    background-repeat: no-repeat; /* Evita repetição da imagem */
+    background-position: center; /* Centraliza a imagem */
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.bemvindo h1 {
+    color: #ffffff;
+    font-size: 3em;
+    text-align: center;
+    margin: 0;
+}
+.bemvindo p {
+    color: #ffffff;
+    font-size: 2em;
+    text-align: center;
+    margin: 0;
+}
+
+/*    LOGO    */
+.logo {
+    float: left;
+    margin-top: 5px;
+}
+
+
+/*  FOOTER  */
 .footer {
     background-color: #fade93;
     padding: 40px 20px;
-    font-family: Arial, sans-serif;
 }
 
 .footer-container {
@@ -61,13 +115,15 @@ header nav li {
 }
 
 .social-links a {
-    color: #007BFF;
+    color: #3c5806;
     text-decoration: none;
     font-size: 1.1em;
 }
 
 .social-links a:hover {
     text-decoration: underline;
+    transition: all 0.1s ease;
+    color: black;
 }
 
 .footer-bottom {
