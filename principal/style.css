@@ -1,14 +1,17 @@
 body{
     background-color: rgb(255, 255, 246);
     font-family: "Poppins", sans-serif;
+    margin: 0; /* Remove margens padrão do body */
+    padding: 0;
 }
 
 /*   HEADER   */
 header{
-    background-image: url(../Assets/imagens/background.png);
+    background-color: #d8c070;
     width: 100%;
     min-height: 100px;
     height: 100%;
+    margin: 0;
 }
 
 header nav ul {
@@ -42,7 +45,7 @@ header nav li {
 }
 
 .banner {
-    background-image: url(../Assets/imagens/bannerHome.jpg);
+    background-image: url(../Assets/imagens/bannerHome.jpg) ;
     background-size: cover; /*  Diminui o zoom da imagem */
     background-repeat: no-repeat; /* Evita repetição da imagem */
     background-position: center; /* Centraliza a imagem */
@@ -51,6 +54,7 @@ header nav li {
     justify-content: center;
     align-items: center;
     width: 100%;
+    margin-top: 0;
 }
 
 .bemvindo h1 {
@@ -78,20 +82,24 @@ header nav li {
     gap: 20px; /* Espaçamento entre os elementos */
     justify-content: center; /* Centraliza os elementos horizontalmente */
 }
-.feedbacks h1 {
-    color: #333;
+.feed h1 {
+    color: #ce7a7a;
     font-size: 2em;
     text-align: center;
     margin-bottom: 20px;
+    margin-left: 10px;
 }
-
+.feed {
+    background-color: burlywood;
+    height: 560px;
+}
 .box-feedbacks {
     background-color: #f9f9f9;
     border-radius: 10px;
     padding: 20px;
     margin: 0; /* Remova a margem vertical */
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    width: 50%; /* Ajuste a largura para caber dois elementos lado a lado */
+    width: 40%; /* Ajuste a largura para caber dois elementos lado a lado */
     float: none; /* Remova o float */
     box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.1);
     gap: 20px;
