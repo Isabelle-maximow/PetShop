@@ -20,9 +20,9 @@
 
 <body>
     <header>
-        <div class="icone_pata">
+        <!-- <div class="icone_pata">
             <i class="fa-solid fa-paw"></i>
-        </div>
+        </div> -->
         <div class="logo">
             <a href="index.html">
                 <img src="../Assets/imagens/logo1.png" alt="Logo Mundo Pet" width="100px" title="Mundo Pet">
@@ -44,46 +44,46 @@
             <p>Conheça nossos produtos e serviços</p>
         </div>
     </section>
-
+    <br>
     <section>
         <form action="Sobre.html">
-            <p>Bem vindo a nossa casa!</p>
-            <p>Aqui no Mundo Pet temos de tudo o que seu amigo peludo precisa para uma vida saudável e feliz.
-                De ração de qualidade a acessórios exclusivos, temos produtos que atendem todas as necessidades do seu
-                pet.
-                Além disso, nosso atendimento é personalizado para garantir que você encontre tudo o que seu companheiro
-                precisa.
-
-                Visite-nos e faça seu pet mais feliz hoje mesmo! 🐶🐱 </p>
+            <div class="intro">
+                <p>Aqui no Mundo Pet temos de tudo o que seu amigo peludo precisa para uma vida saudável e feliz.
+                    De ração de qualidade a acessórios exclusivos, temos produtos que atendem todas as necessidades do seu
+                    pet.
+                    Além disso, nosso atendimento é personalizado para garantir que você encontre tudo o que seu companheiro
+                    precisa.
+                </p>
+                    <a id="visite" href="Contato.html">Visite-nos e faça seu pet mais feliz hoje mesmo! 🐶🐱</a>
+            </div>
             <input type="submit" value="Saiba mais">
         </form>
     </section>
     <section>
         <h1>Feedbacks</h1>
-        <div>
-            <p>Adoro comprar no Mundo Pet! Sempre encontro tudo o que meu cãozinho precisa, desde ração de qualidade até
-                brinquedos que ele ama. O atendimento é maravilhoso,
-                e a equipe sempre me orienta sobre o melhor para ele. Sem dúvida, é o melhor lugar para mim e meu pet!"
-                - Jose Bezerra </p>
-        </div>
-        <div>
-            <img src="../Assets/imagens/dog1.jpg" alt="Logo Mundo Pet" width="250px" title="Mundo Pet">
-        </div>
-        <div>
-            <p>"Ótimo atendimento e produtos de qualidade! Meu pet adora tudo que compro aqui. Recomendo!" - Ana Silva
-            </p>
-        </div>
-        <div>
-            <img src="../Assets/imagens/fedback2.png" alt="Logo Mundo Pet" width="250px" title="Mundo Pet">
+        <div class="feedbacks">
+            <div class="box-feedbacks">
+                <p>Adoro comprar no Mundo Pet! Sempre encontro tudo o que meu cãozinho precisa, desde ração de qualidade até
+                    brinquedos que ele ama. O atendimento é maravilhoso,
+                    e a equipe sempre me orienta sobre o melhor para ele. Sem dúvida, é o melhor lugar para mim e meu pet!"
+                    -  <i><b>Jose Bezerra </b></i>
+                </p>
+                <img src="../Assets/imagens/dog1.jpg" alt="Logo Mundo Pet" width="250px" title="Mundo Pet">
+            </div>
+            <div class="box-feedbacks">
+                <p>"Ótimo atendimento e produtos de qualidade! Meu pet adora tudo que compro aqui. Recomendo!" - <i><b>Ana Silva</b></i>
+                </p>
+                <img src="../Assets/imagens/dog1.jpg" alt="Logo Mundo Pet" width="250px" title="Mundo Pet">
+            </div>
         </div>
     </section>
 
-    <section>
-        <h1>Dicas</h1>
-        <div>
-            <img src="../Assets/imagens/dog2.jpg" alt="Logo Mundo Pet" width="150px" title="Mundo Pet">
+    <section id="dicas">
+        <h1>Dicas para seu Pet</h1>
+        <div id="dicas-img">
+            <img src="../Assets/imagens/dog2.jpg" alt="Logo Mundo Pet" width="300px" title="Mundo Pet">
         </div>
-        <div>
+        <div id="dicas-texto">
             <h3>Veja 5 dicas essenciais para cuidar do seu amiguinho</h3>
             <ul>
                 <li>Alimentação Balanceada: Ofereça uma alimentação adequada à idade, raça e tamanho do seu pet.
@@ -103,17 +103,20 @@
         </div>
         <div class="ytb">
             <h3>Mais Dicas!</h3>
-            <iframe id="ytplayer" type="text/html" width="720" height="405"
+            <iframe id="ytplayer" type="text/html" width="500" height="405"
                 src="https://www.youtube.com/embed/vLJw6gi03yY" frameborder="0" allowfullscreen></iframe>
         </div>
 
     </section>
-    <section id="novidade">
-        <h1>Deseja receber novidades?</h1>
-        <form action="">
-            <input type="email" name="email" id="email" required>
-            <input type="submit" value="subscrever">
-        </form>
+    <section id="novidades">
+        <div class="Novidade" >
+            <h1>Deseja receber novidades?</h1>
+            <form action="">
+                <input type="email" name="email" id="email" required placeholder="Digite seu e-mail">
+                <br>
+                <input type="submit" id="submit" value="subscrever">
+            </form>
+        </div>
     </section>
 
 
