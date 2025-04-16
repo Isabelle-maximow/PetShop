@@ -8,62 +8,63 @@
     <!-- links -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="loja.css">
+    <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+
 
 </head>
 <body>
     <header>
-        <div class="icone_pata">
+        <!-- <div class="icone_pata">
             <i class="fa-solid fa-paw"></i>
-        </div>
+        </div> -->
+
+        <!-- ARRUMAR A LOGO PQ TA CRIANDO ESPAÇO ENTRE O HEADER -->
         <div class="logo">
             <a href="index.html">
-                <img 
-                src="../Assets/imagens/logo1.png" 
-                alt="Logo Mundo Pet"
-                width="100px"
-                title="Mundo Pet">
+                <img src="../Assets/imagens/logo1.png" alt="Logo Mundo Pet" width="100px" title="Mundo Pet">
             </a>
         </div>
-        <nav>
+        <nav id="menu_principal">
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="Sobre.html">Sobre</a></li>
+                <li><a href="Loja.html">Loja</a></li>
                 <li><a href="Contato.html">Contato</a></li>
             </ul>
         </nav>
     </header>
 
     <section id="serviços">
-        <div class="hello">
-            <h1>Bem-vindo à nossa loja!</h1>
-            <p>Encontre tudo o que seu pet precisa!</p>
-        </div>
-
-        <div>
-            <img 
-            src="../Assets/imagens/loja.png" 
-            alt="Imagem caes e gatos"
-            width="500px"
-            title="Loja Mundo Pet"
-            >
+        <div class="imagem">
+            <div class="hello">
+                <h1>Bem-vindo à nossa loja!</h1>
+                <p>Encontre tudo o que seu pet precisa!</p>
+            </div>
         </div>
     </section>
 
+    <!--  ARRUMAR DIVS -->
     <section id="produtos">
         <h2>Nossos Produtos</h2>
         <div class="product-list">
             <div class="product-item">
-                <a href="./produtos/petiscos.html">
-                    <h3>Rações e Petiscos</h3>
-                    <img 
-                    src="./produtos/imagens produto/petiscosTema.png" 
-                    alt="Rações e Petiscos"
-                    title="Raçoes e Petiscos"
-                    width="100px"
-                    >
-                </a>
-
+                <div class="rações">
+                    <a href="./produtos/petiscos.html">
+                        <h3>Rações e Petiscos</h3>
+                        <img 
+                        src="./produtos/imagens produto/petiscosTema.png" 
+                        alt="Rações e Petiscos"
+                        title="Raçoes e Petiscos"
+                        width="100px"
+                        >
+                    </a>
+                    <p>Alimentação saudavel e divertida!</p>
+                </div>
+                <div class="banho"></div>
+                
+            <div class="product-item">
                 <a href="./produtos/tosa.html">
                     <h3>Banho e Tosa</h3>
                     <img 
@@ -73,7 +74,9 @@
                     width="100px"
                     >
                 </a>
-
+                <p>Mantendo seu amigo limpinho e cheiroso</p>
+            </div>
+            <div class="product-item">
                 <a href="./produtos/vet.html">
                     <h3>Veterinários</h3>
                     <img 
@@ -83,7 +86,9 @@
                     width="100px"
                     >
                 </a>
-
+                <p> Especialização para a saude dos nossos clientes!!</p>
+            </div>
+            <div class="product-item">
                 <a href="./produtos/brinquedos.html">
                     <h3>Brinquedos e Acessorios</h3>
                     <img 
@@ -93,39 +98,40 @@
                     width="100px"
                     >
                 </a>
+                <p> Brinquedos e Acessorios Perfeitos para o seu Pet</p>
             </div>
         </div>
 
-    <section id="sobreProdutos">
+    <section id="sobre-servicos">
         <h2>Sobre nossos serviços</h2>
-        <div>
+        <div class="Serviço">
             <h3>serviços Veterinários</h3>
             <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique magni expedita nostrum voluptatibus porro vitae! Nobis, facere omnis explicabo velit, quod enim, cum praesentium iure ex nemo perferendis iste vero.
+                Oferecemos atendimento veterinário especializado para garantir a saúde e o bem-estar do seu pet, com consultas, vacinas e exames completos.
             </p>
         </div>
-        <div>
+        <div class="Serviço">
             <h3>Banho e Tosa</h3>
             <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore similique facere, fugiat harum quaerat fuga eum obcaecati iusto laboriosam illum. Sequi, consequatur facere repudiandae quidem fugit laborum nihil exercitationem obcaecati!
+                Cuide da higiene e aparência do seu pet com nossos serviços de banho e tosa, realizados por profissionais experientes e com produtos de alta qualidade.
             </p>
         </div>
-        <div>
+        <div class="Serviço">
             <h3>Rações e Petiscos</h3>
             <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatibus. Quisquam, voluptatibus. Quisquam, voluptatibus. Quisquam, voluptatibus.
+                Disponibilizamos uma ampla variedade de rações e petiscos nutritivos e saborosos, ideais para todas as fases da vida do seu pet.
             </p>
         </div> 
-        <div>
+        <div class="Serviço">
             <h3>Brinquedos e Acessórios</h3>
             <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat quidem minus nemo consequatur qui aperiam obcaecati doloremque iusto maiores molestiae sed, impedit aspernatur recusandae ullam. Aut at cupiditate ipsum quasi
+                Descubra brinquedos interativos e acessórios funcionais que proporcionam diversão e conforto para o seu pet no dia a dia.
             </p>
         </div>
-        <div>
+        <div class="Serviço">
             <h3>Adestramento e Muito Mais!</h3>
             <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatibus. Quisquam, voluptatibus. Quisquam, voluptatibus. Quisquam, voluptatibus.
+                Oferecemos serviços de adestramento para ajudar no comportamento do seu pet, além de outras soluções personalizadas para suas necessidades.
             </p>
         </div>
     </section>
