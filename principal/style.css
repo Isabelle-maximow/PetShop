@@ -1,12 +1,13 @@
-body{
+body {
     background-color: rgb(255, 255, 246);
     font-family: "Poppins", sans-serif;
-    margin: 0; /* Remove margens padrão do body */
+    margin: 0;
+    /* Remove margens padrão do body */
     padding: 0;
 }
 
 /*   HEADER   */
-header{
+header {
     background-color: #d8c070;
     width: 100%;
     min-height: 100px;
@@ -16,15 +17,17 @@ header{
 
 header nav ul {
     display: flex;
-    justify-content: flex-end; 
-    list-style: none; 
-    padding: 20px; 
-    margin: 0px; 
+    justify-content: flex-end;
+    list-style: none;
+    padding: 20px;
+    margin: 0px;
 }
 
 header nav li {
-    margin-left: 20px; /* Espaçamento entre os itens */
-    align-self: flex-start; /* Garante que os itens fiquem alinhados ao topo */
+    margin-left: 20px;
+    /* Espaçamento entre os itens */
+    align-self: flex-start;
+    /* Garante que os itens fiquem alinhados ao topo */
 }
 
 #menu_principal ul li {
@@ -45,10 +48,13 @@ header nav li {
 }
 
 .banner {
-    background-image: url(../Assets/imagens/bannerHome.jpg) ;
-    background-size: cover; /*  Diminui o zoom da imagem */
-    background-repeat: no-repeat; /* Evita repetição da imagem */
-    background-position: center; /* Centraliza a imagem */
+    background-image: url(../Assets/imagens/bannerHome.jpg);
+    background-size: cover;
+    /*  Diminui o zoom da imagem */
+    background-repeat: no-repeat;
+    /* Evita repetição da imagem */
+    background-position: center;
+    /* Centraliza a imagem */
     height: 500px;
     display: flex;
     justify-content: center;
@@ -63,6 +69,7 @@ header nav li {
     text-align: center;
     margin: 0;
 }
+
 .bemvindo p {
     color: #ffffff;
     font-size: 2em;
@@ -79,9 +86,12 @@ header nav li {
 /*  FEEDBACKS */
 .feedbacks {
     display: flex;
-    gap: 20px; /* Espaçamento entre os elementos */
-    justify-content: center; /* Centraliza os elementos horizontalmente */
+    gap: 20px;
+    /* Espaçamento entre os elementos */
+    justify-content: center;
+    /* Centraliza os elementos horizontalmente */
 }
+
 .feed h1 {
     color: #ce7a7a;
     font-size: 2em;
@@ -89,22 +99,28 @@ header nav li {
     margin-bottom: 20px;
     margin-left: 10px;
 }
+
 .feed {
     background-color: burlywood;
     height: 560px;
 }
+
 .box-feedbacks {
     background-color: #f9f9f9;
     border-radius: 10px;
     padding: 20px;
-    margin: 0; /* Remova a margem vertical */
+    margin: 0;
+    /* Remova a margem vertical */
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    width: 40%; /* Ajuste a largura para caber dois elementos lado a lado */
-    float: none; /* Remova o float */
+    width: 40%;
+    /* Ajuste a largura para caber dois elementos lado a lado */
+    float: none;
+    /* Remova o float */
     box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.1);
     gap: 20px;
-    
+
 }
+
 /* .box-feedbacks p,
 .box-feedbacks img{} usaria caso a imagem e o texto se balançassem */
 
@@ -124,28 +140,40 @@ header nav li {
 
 
 #visite {
-    display: block; /* Alinha como um bloco contínuo */
-    text-align: left; /* Alinha o texto à esquerda */
-    font-size: 20px; /* Mesma fonte usada nos textos acima */
-    color: #333; /* Cor consistente com os textos acima */
-    line-height: 1.5; /* Ajusta o espaçamento entre linhas */
-    margin-top: 20px; /* Espaçamento superior para separação */
-    text-decoration: none; /* Remove o sublinhado do link */
+    display: block;
+    /* Alinha como um bloco contínuo */
+    text-align: left;
+    /* Alinha o texto à esquerda */
+    font-size: 20px;
+    /* Mesma fonte usada nos textos acima */
+    color: #333;
+    /* Cor consistente com os textos acima */
+    line-height: 1.5;
+    /* Ajusta o espaçamento entre linhas */
+    margin-top: 20px;
+    /* Espaçamento superior para separação */
+    text-decoration: none;
+    /* Remove o sublinhado do link */
 }
 
 #visite:hover {
-    text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
-    color: #555; /* Cor levemente diferente no hover */
+    text-decoration: underline;
+    /* Adiciona sublinhado ao passar o mouse */
+    color: #555;
+    /* Cor levemente diferente no hover */
 }
 
 /*  DICAS  */
 #dicas {
-    clear:both; /* Limpa o float anterior */
+    clear: both;
+    /* Limpa o float anterior */
 }
+
 #dicas-img {
     width: 100%;
     height: auto;
-    max-width: 500px; /* Limita a largura máxima da imagem */
+    max-width: 500px;
+    /* Limita a largura máxima da imagem */
     border-radius: 10px;
 }
 
@@ -155,25 +183,30 @@ header nav li {
     padding: 20px;
     border-radius: 0.5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    margin-top: 20px; /* Espaçamento superior */
+    margin-top: 20px;
+    /* Espaçamento superior */
     width: 100%;
     text-align: center;
 }
+
 .Novidade h1 {
     color: #333;
     font-size: 20px;
     text-align: center;
     margin-bottom: 20px;
 }
+
 #email {
     width: 400px;
     padding: 12px;
     border-radius: 10px;
 }
-#email :focus{
+
+#email :focus {
     border: #c5ad81 solid 3px;
     outline: none;
 }
+
 #submit {
     background-color: #cac468;
     color: #000000;
@@ -183,6 +216,7 @@ header nav li {
     font-size: 1em;
     margin-top: 20px;
 }
+
 #submit:hover {
     background-color: #3b3701;
     transition: all 0.3s ease;
@@ -265,7 +299,7 @@ header nav li {
 
 
 /*  LOJA */
-#serviços h1{
+#serviços h1 {
     color: #ffffff;
     font-size: 50px;
     text-align: center;
@@ -274,11 +308,15 @@ header nav li {
 
 .imagem {
     background-image: url(../Assets/imagens/loja.png);
-    background-color: rgba(0, 0, 0, 0.5); /* Cor preta com 50% de opacidade */
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Cor preta com 50% de opacidade */
     background-blend-mode: darken;
-    background-size: cover; /*  Diminui o zoom da imagem */
-    background-repeat: no-repeat; /* Evita repetição da imagem */
-    background-position: center; /* Centraliza a imagem */
+    background-size: cover;
+    /*  Diminui o zoom da imagem */
+    background-repeat: no-repeat;
+    /* Evita repetição da imagem */
+    background-position: center;
+    /* Centraliza a imagem */
     height: 500px;
     display: flex;
     justify-content: center;
@@ -294,21 +332,22 @@ header nav li {
     margin: 0;
 }
 
-#produtos h2{
+#produtos h2 {
     color: #333;
     font-size: 50px;
     text-align: center;
     margin-bottom: 20px;
 }
 
-.product-item{
+.product-item {
     width: 200PX;
     padding: 20px;
     background-image: url("./produtos/imagens produto/petiscosTema.png");
-    background-color: rgba(0, 0, 0, 0.5); /* Cor preta com 50% de opacidade */
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Cor preta com 50% de opacidade */
     background-blend-mode: darken;
     border-radius: 10px;
-    margin: 0; 
+    margin: 0;
 }
 
 .product-list .product-item {
@@ -333,8 +372,122 @@ header nav li {
     width: 200PX;
     margin: 0;
 }
+
 #sobre-servicos h2 {
     color: #333;
     font-size: 50px;
     text-align: left;
+}
+
+/*         CONTATO           */
+
+
+.FORM {
+    background-image: url("../Assets/imagens/gatoForm.png");
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Cor preta com 50% de opacidade */
+    background-blend-mode: darken;
+    background-size: cover;
+    /*  Diminui o zoom da imagem */
+    background-repeat: no-repeat;
+    /* Evita repetição da imagem */
+    background-position: center;
+    padding: 50px;
+    /* Espaçamento interno */
+    border-radius: 10px;
+    /* Bordas arredondadas */
+    height: 550px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 550px;
+    /* Ajuste a largura para caber dois elementos lado a lado */
+    box-shadow: 6px 6px 6px rgba(8, 0, 0, 0.1);
+}
+
+
+.FORM input,
+.FORM label {
+    display: block;
+    color: #e9e9e9;
+}
+
+.container .FORM input,
+.container .FORM textarea{
+    width: 500px;
+    /* Largura total do campo */
+    padding: 10px;
+    /* Espaçamento interno */
+    border-radius: 5px;
+    /* Bordas arredondadas */
+    border: 1px solid #000000;
+    /* Borda cinza clara */
+    margin-top: 5px;
+    /* Espaçamento acima dos campos */
+}
+
+.FORM input,
+.FORM textarea,
+.FORM select,
+.FORM label :hover {
+    background-color: #3b3701;
+    transition: all 0.3s ease;
+    color: #ffffff;
+}
+
+.FORM select {
+    width: 520px;
+    /* Largura total do campo */
+    padding: 5px;
+    /* Espaçamento interno */
+}
+
+.FORM label {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+
+button {
+    margin-top: 20px;
+    /* Espaçamento acima do botão */
+    width: 80px;
+    padding: 10px;
+    float: right;
+    background-color: #1c1d02;
+    /* Cor de fundo do botão */
+    color: white;
+    /* Cor do texto do botão */
+    border: none;
+    /* Remove borda */
+    border-radius: 100px;
+    /* Bordas arredondadas */
+    cursor: pointer;
+    /* Muda o cursor ao passar o mouse */
+    margin-bottom: 30%;
+}
+
+button :hover {
+    background-color: #bebebe;
+    /* Cor de fundo do botão ao passar o mouse */
+    transition: all 0.3s ease;
+    /* Transição suave */
+    color: #ddc917;
+    /* Cor do texto do botão ao passar o mouse */
+}
+
+.contatos h1 {
+    display: flex;
+    gap: 20px;
+    /* Espaçamento entre os elementos */
+    justify-content: center;
+    /* Centraliza os elementos horizontalmente */
+}
+
+.contatos p {
+    color: #333;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
 }

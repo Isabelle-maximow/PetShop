@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,72 +9,80 @@
     <!-- links -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="contato.css">
+    <!-- FONTE -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
 
 </head>
+
 <body>
     <header>
-        <div class="icone_pata">
+        <!-- <div class="icone_pata">
             <i class="fa-solid fa-paw"></i>
-        </div>
+        </div> -->
+
+        <!-- ARRUMAR A LOGO PQ TA CRIANDO ESPAÇO ENTRE O HEADER -->
         <div class="logo">
             <a href="index.html">
-                <img 
-                src="../Assets/imagens/logo1.png" 
-                alt="Logo Mundo Pet"
-                width="100px"
-                title="Mundo Pet">
+                <img src="../Assets/imagens/logo2.png" alt="Logo Mundo Pet" width="100px" title="Mundo Pet">
             </a>
         </div>
-        <nav>
+        <nav id="menu_principal">
             <ul>
-                <li><a href="">Home</a></li>
-                <li><a href="">Loja</a></li>
-                <li><a href="">Contato</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Sobre.html">Sobre</a></li>
+                <li><a href="Loja.html">Loja</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <h1>Contatos</h1>
-        <p>Na Mundo Pet, estamos sempre prontos para ajudar você e seu melhor amigo! Se você tiver alguma dúvida, sugestão ou precisar de assistência, não hesite em nos contatar.
-           Nossa equipe apaixonada por animais está aqui para garantir que você e seu pet tenham a melhor experiência possível. </p>
+        <div class="container">
+            <div class="contatos">
+                <h1>Fale Conosco</h1>
+                <p>Na Mundo Pet, estamos sempre prontos para ajudar você e seu melhor amigo! Se você tiver alguma
+                    dúvida, sugestão ou precisar de assistência, não hesite em nos contatar.
+                    Nossa equipe apaixonada por animais está aqui para garantir que você e seu pet tenham a melhor
+                    experiência possível. </p>
+            </div>
+            <div class="FORM">
+                <form action="" id="contatos">
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" required placeholder="Digite seu nome">
 
-        <form action="">
-            <label for="nome">Nome:</label>
-            <input type="text" id="nome" name="nome" required placeholder="Digite seu nome">
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" required placeholder="Digite seu e-mail">
 
-            <label for="email">E-mail:</label>
-            <input type="email" id="email" name="email" required placeholder="Digite seu e-mail">
+                    <label for="tell">Telefone:</label>
+                    <input type="tell" id="tell" name="tell" required placeholder="Digite seu telefone">
 
-            <label for="email">Telefone:</label>
-            <input type="tell" id="tell" name="tell" required placeholder="Digite seu telefone">
+                    <label for="text">Assunto:</label>
+                    <select name="assunto" id="assunto" required placeholder="Selecione o assunto">
+                        <option>Selecione</option>
+                        <option value="Dúvidas">Dúvidas</option>
+                        <option value="Reclamações">Reclamações</option>
+                        <option value="Sugestões">Sugestões</option>
+                        <option value="Outros">Outros</option>
+                    </select>
 
-            <label for="text">Assunto:</label>
-            <select name="assunto" id="assunto" required placeholder="Selecione o assunto">
-                <option>Selecione</option>
-                <option value="Dúvidas">Dúvidas</option>
-                <option value="Reclamações">Reclamações</option>
-                <option value="Sugestões">Sugestões</option>
-                <option value="Outros">Outros</option>
-            </select>   
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea id="mensagem" name="mensagem" rows="4" required
+                        placeholder="Escreva aqui sua mensagem"></textarea>
 
-            <label for="mensagem">Mensagem:</label>
-            <textarea id="mensagem" name="mensagem" rows="4" required placeholder="Escreva aqui sua mensagem"></textarea>
-
-            <button type="submit">Enviar</button>
-        </form>
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+        </div>
 
         <!-- colocando localização do Maps  -->
         <div id="maps">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29263.23711653743!2d-46.66043148437502!3d-23.535931999999992!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce58f900900001%3A0x5b683fa7d6899c85!2sMundo%20Pet!5e0!3m2!1spt-BR!2sbr!4v1743790168800!5m2!1spt-BR!2sbr" 
-            width="800%" 
-            height="450" 
-            style="border:0;" 
-            allowfullscreen="" 
-            loading="lazy" 
-            referrerpolicy="no-referrer-when-downgrade"
-            ></iframe>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29263.23711653743!2d-46.66043148437502!3d-23.535931999999992!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce58f900900001%3A0x5b683fa7d6899c85!2sMundo%20Pet!5e0!3m2!1spt-BR!2sbr!4v1743790168800!5m2!1spt-BR!2sbr"
+                width="800%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
     </main>
 
@@ -83,9 +92,9 @@
                 <h3>MundoPet - O Melhor Para Seu Melhor Amigo!</h3>
                 <p><strong>Endereço:</strong> Rua dos Pets, 123 – Bairro Amigo dos Bichos, Cidade Petópolis</p>
                 <p><strong>Horário de Atendimento:</strong><br>
-                Segunda a Sexta: 9h às 18h<br>
-                Sábado: 9h às 14h<br>
-                Domingo: Fechado</p>
+                    Segunda a Sexta: 9h às 18h<br>
+                    Sábado: 9h às 14h<br>
+                    Domingo: Fechado</p>
             </div>
             <div class="footer-section">
                 <h4>Siga-nos nas redes sociais!</h4>
@@ -116,6 +125,7 @@
         </div>
         <p class="footer-bottom">MundoPet - Parceiro do seu pet! Porque seu pet merece o melhor.</p>
     </footer>
-    
+
 </body>
+
 </html>
