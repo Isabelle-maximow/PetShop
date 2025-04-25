@@ -532,3 +532,9 @@ button :hover {
     line-height: 1.5; /* Melhora o espaçamento entre linhas */
     color: #555;
 }
+.container-sobre .QuemSomos video {
+    width: 100%;
+    height: auto; /* Mantém a proporção da imagem */
+    border-radius: 10px; /* Bordas arredondadas */
+    margin-top: 20px; /* Espaçamento acima do vídeo */
+}
