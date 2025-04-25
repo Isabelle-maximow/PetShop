@@ -12,59 +12,49 @@
 </head>
 <body>
     <header>
-        <div class="icone_pata">
+        <!-- <div class="icone_pata">
             <i class="fa-solid fa-paw"></i>
-        </div>
+        </div> -->
+
         <div class="logo">
             <a href="index.html">
-                <img 
-                src="../Assets/imagens/logo2.png" 
-                alt="Logo Mundo Pet"
-                width="100px"
-                title="Mundo Pet">
+                <img src="../Assets/imagens/logo2.png" alt="Logo Mundo Pet" width="100px" title="Mundo Pet">
             </a>
         </div>
-        <nav>
+        <nav id="menu_principal">
             <ul>
                 <li><a href="index.html">Home</a></li>
+                <li><a href="Sobre.html">Sobre</a></li>
                 <li><a href="Loja.html">Loja</a></li>
                 <li><a href="Contato.html">Contato</a></li>
             </ul>
         </nav>
     </header>
 
-    <main>
-
-        <h1> Sobre nós </h1>
-        <div>
+    <main class="container-sobre">
+        <div class="nos">
+            <h1>Sobre nós</h1>
             <h2>Bem-vindo ao Mundo Pet</h2>
-            <h3>Quem Somos?</h3>
-            <p>No MundoPet, acreditamos que os pets são muito mais do que apenas animais de estimação 
-                eles são membros da família! Com muito carinho e dedicação, nosso objetivo é oferecer tudo o que seu amigo de quatro patas precisa para uma vida saudável, 
-                feliz e cheia de aventuras. Seja para um banho relaxante, uma ração de qualidade ou aquele brinquedo que vai fazer os olhos brilhar, 
-                o MundoPet está aqui para cuidar do seu pet com muito amor e profissionalismo.
-            </p>
-            <h3>Nossa Missão</h3>
-            <p>Nossa missão é transformar a experiência dos pets e seus tutores, oferecendo produtos e serviços de alta qualidade, 
-                sempre com um atendimento personalizado e acolhedor. 
-                Estamos aqui para garantir que o seu pet tenha uma vida longa, saudável e divertida, com tudo o que há de melhor no mercado.
-            </p>
-            <h3>O que Oferecemos</h3>
-            <p>No MundoPet, você encontra uma variedade de produtos e serviços que atendem às necessidades dos pets em todas as fases da vida.
-                De ração e petiscos a cuidados de saúde e bem-estar, temos tudo o que seu amigo precisa. 
-                Além disso, nossa equipe de profissionais está sempre pronta para oferecer dicas, orientações e atendimento especializado para garantir o melhor para o seu pet.
-            </p>
-            <h3>Por que escolher o Mundo Pet?</h3>
-            <p>Escolher o MundoPet é garantir que seu pet tenha a atenção e os cuidados que ele merece. 
-                Contamos com uma equipe experiente, apaixonada pelo que faz e sempre em busca de oferecer as melhores opções para seu amigo de estimação.
-                Venha conhecer o MundoPet, onde o cuidado e o carinho estão sempre em primeiro lugar!
-            </p>
         </div>
+        <div class="QuemSomos">
+            <h3>Quem Somos?</h3>
+            <p>Somos apaixonados por pets e acreditamos que eles são parte da família. Nosso objetivo é oferecer produtos e serviços de qualidade para garantir o bem-estar e a felicidade do seu amigo de estimação.</p>
+        </div>
+            <h3>Nossa Missão</h3>
+            <p>Proporcionar aos pets e seus tutores uma experiência única, com atendimento acolhedor e soluções completas para uma vida saudável, divertida e cheia de amor.</p>
+        </div>
+        <div class="Escolher">
+            <h3>O que Oferecemos</h3>
+            <p>Oferecemos uma ampla variedade de produtos e serviços para todas as fases da vida do seu pet, desde ração e petiscos até cuidados de saúde e bem-estar, sempre com atendimento especializado.</p>
+            <h3>Por que escolher o Mundo Pet?</h3>
+            <p>No MundoPet, seu pet recebe atenção e cuidado de uma equipe apaixonada e experiente. Aqui, carinho e qualidade estão sempre em primeiro lugar!</p>
+        </div>
+    </div>
 
         <!-- quando colocar video, é viavel colocar duas opçoes (mp4 e webbm) alguns servidores podem não carregar ao abrir o site -->
          <!-- autoplay para rodar automatico e muted para ficar mudo -->
         <div class="video">
-            <video  width="700px" autoplay muted >
+            <video autoplay muted >
                 <source src="/Assets/imagens/video/video dog.mp4" type="video/mp4">
                 <source src="/Assets/imagens/video/video dog.webm" type="video/webm">
                 <p>Este navegador não suporta o video</p>
